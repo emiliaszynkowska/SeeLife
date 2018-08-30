@@ -1,29 +1,86 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
 body {
-  padding-top: 54px;
+  padding-top: 45px;
+  background-color:#3ca6e8;
 }
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.slideshow {
 }
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.mySlides {
+  display: none;
 }
-
-.portfolio-item {
-  margin-bottom: 30px;
+.mySlides img {
+  width:100%;
+  height:600px;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 40px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.topbar {
+  height:80px;
+  background-color:#08236b;
+}
+.topbar h1 {
+  text-decoration:none;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:40px;
+  color:white;
+  font-family: 'Lobster', cursive;
+}
+.images {
+  width:100%;
+  display:inline-grid;
+  padding-left:10%;
+}
+.image {
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.divs {
+  display:inline-flex;
+  padding:40px;
+}
+.images img {
+  width:250px;
 }
