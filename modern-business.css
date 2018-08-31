@@ -139,16 +139,12 @@ h3 {
   color:darkblue;
   font-family: 'Lobster', cursive;
 }
-<<<<<<< HEAD
+
 h4 {
   text-decoration:none;
   padding-top:10px;
   padding-bottom:10px;
-
-  font-size:20px;
+  font-size:15px;
   color:darkblue;
-=======
-.nav-link {
   font-size:20px;
->>>>>>> bfedc11f92517f1603439caf4375e77afe57aad4
 }
