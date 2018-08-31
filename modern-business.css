@@ -1,6 +1,6 @@
 body {
-<<<<<<< HEAD
   padding-top: 54px;
+  background-color:#2aa9e0;
 }
 @media (min-width: 992px) {
   body {
@@ -103,7 +103,6 @@ body {
 }
 .images img {
   width:250px;
->>>>>>> ef77bebea764bf2b97eec31026dde3992457b2ff
 }
 .heading {
   padding:20px;
