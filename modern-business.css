@@ -108,7 +108,7 @@ h1 {
   text-decoration:none;
   padding-top:10px;
   padding-bottom:10px;
-  font-size:30px;
+  font-size:35px;
   color:white;
   font-family: 'Lobster', cursive;
 }
@@ -118,7 +118,7 @@ h2 {
   padding-top:10px;
   padding-bottom:10px;
   font-size:25px;
-  color:DodgerBlue;
+  color:darkblue;
   font-family: 'Lobster', cursive;
 }
 h3 {
@@ -129,4 +129,21 @@ h3 {
   font-size:20px;
   color:darkblue;
   font-family: 'Lobster', cursive;
+}
+h3 {
+  text-decoration:none;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:20px;
+  color:darkblue;
+  font-family: 'Lobster', cursive;
+}
+h4 {
+  text-decoration:none;
+  padding-top:10px;
+  padding-bottom:10px;
+
+  font-size:20px;
+  color:darkblue;
 }
